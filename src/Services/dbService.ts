@@ -2,7 +2,7 @@
 import { Product, User } from '../types';
 
 // API Base URL - uses environment variable or defaults to local backend
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+const API_BASE_URL = 'https://eccomerce-backend-h40v.onrender.com';
 
 export const productService = {
   async fetchAll(): Promise<Product[]> {
